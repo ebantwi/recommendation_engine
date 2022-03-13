@@ -1,0 +1,12 @@
+,,,,,,,,,
+,antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
+1a,frozenset({'GradePresent'}),frozenset({'Visibility'}),0.801,0.348,0.284,0.355,1.021,0.006,1.011
+1b,frozenset({'Visibility'}),frozenset({'GradePresent'}),0.348,0.801,0.284,0.818,1.021,0.006,1.094
+2a,"frozenset({'DryRdway', 'GradePresent'})",frozenset({'Visibility'}),0.241,0.348,0.114,0.473,1.360,0.030,1.237
+2b,frozenset({'Visibility'}),"frozenset({'DryRdway', 'GradePresent'})",0.348,0.241,0.114,0.328,1.360,0.030,1.129
+3a,frozenset({'DryRdway'}),frozenset({'Visibility'}),0.325,0.348,0.152,0.467,1.345,0.039,1.225
+3b,frozenset({'Visibility'}),frozenset({'DryRdway'}),0.348,0.325,0.152,0.436,1.345,0.039,1.199
+4a,frozenset({'VOSh'}),frozenset({'Congestion'}),0.235,0.387,0.109,0.463,1.197,0.018,1.142
+4b,frozenset({'Congestion'}),frozenset({'VOSh'}),0.387,0.235,0.109,0.281,1.197,0.018,1.064
+5a,"frozenset({'Visibility', 'GradePresent'})",frozenset({'DryRdway'}),0.284,0.325,0.114,0.401,1.237,0.022,1.128
+5b,frozenset({'DryRdway'}),"frozenset({'Visibility', 'GradePresent'})",0.325,0.284,0.114,0.352,1.237,0.022,1.104
